@@ -16,7 +16,7 @@ class Car {
         for (let i = -30; i < 30; i += 10) {
             this.rays.push(new Ray(this.pos, radians(i)));
         }
-        for (let i = -45; i <= 45; i += 0.5) {
+        for (let i = -45; i <= 45; i++) {
             this.temp_rays.push(new Ray(this.pos, radians(i)));
         }
 
